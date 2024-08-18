@@ -1,0 +1,44 @@
+
+.oneplus_oneplus3_packages:
+  packages: &oneplus_oneplus3_packages
+    - adaptation-droidian-oneplus3
+    - adaptation-oneplus3-configs
+
+# OnePlus 3/3T LVM images
+oneplus-oneplus3:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
+
+  packages: *oneplus_oneplus3_packages
+
+oneplus-oneplus3-cutie:
+  type: image
+  arch: arm64
+  edition: cutie
+  variant: phone
+  apilevel: 28
+
+  packages: *oneplus_oneplus3_packages
+
+# OnePlus 3/3T rootfs images
+oneplus-oneplus3-rootfs:
+  type: rootfs
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
+
+  packages: *oneplus_oneplus3_packages
+
+
+oneplus-oneplus3-cutie-rootfs:
+  type: rootfs
+  arch: arm64
+  edition: cutie
+  variant: phone
+  apilevel: 28
+
+  packages: *oneplus_oneplus3_packages
