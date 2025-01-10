@@ -14,14 +14,14 @@ oneplus-oneplus3:
 
   packages: *oneplus_oneplus3_packages
 
-oneplus-oneplus3-cutie:
-  type: image
-  arch: arm64
-  edition: cutie
-  variant: phone
-  apilevel: 28
+# oneplus-oneplus3-cutie:
+#   type: image
+#   arch: arm64
+#   edition: cutie
+#   variant: phone
+#   apilevel: 28
 
-  packages: *oneplus_oneplus3_packages
+#   packages: *oneplus_oneplus3_packages
 
 # OnePlus 3/3T rootfs images
 oneplus-oneplus3-rootfs:
@@ -34,11 +34,11 @@ oneplus-oneplus3-rootfs:
   packages: *oneplus_oneplus3_packages
 
 
-oneplus-oneplus3-cutie-rootfs:
-  type: rootfs
-  arch: arm64
-  edition: cutie
-  variant: phone
-  apilevel: 28
+# oneplus-oneplus3-cutie-rootfs:
+#   type: rootfs
+#   arch: arm64
+#   edition: cutie
+#   variant: phone
+#   apilevel: 28
 
-  packages: *oneplus_oneplus3_packages
+#   packages: *oneplus_oneplus3_packages
